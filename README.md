@@ -27,7 +27,7 @@ Known theoretical result: The probability is **about 50%**.
    [Download Node.js](https://nodejs.org/)
 2. Clone or download this repository:
    ```bash
-   git clone https://github.com/username/airplane-problem.git
+   git clone https://github.com/Tarikkkoc/airplane-problem.git
    cd airplane-problem/src
    ```
 3. Run the simulation:
@@ -88,7 +88,7 @@ Bilinen teorik sonuç: Son yolcunun kendi koltuğuna oturma olasılığı **yakl
    [Node.js indirme sayfası](https://nodejs.org/)
 2. Bu projeyi klonla veya indir:
    ```bash
-   git clone https://github.com/kullaniciadi/airplane-problem.git
+   git clone https://github.com/Tarikkkoc/airplane-problem.git
    cd airplane-problem/src
    ```
 3. `app.js` dosyasını çalıştır:

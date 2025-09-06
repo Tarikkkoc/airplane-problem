@@ -1,67 +1,6 @@
-# ✈️ 100 Yolcu Uçak Problemi Simülasyonu
+# ✈️ 100 Passenger Airplane Problem Simulation
 
-_(Airplane Seating Problem Simulation)_
-
----
-
-## 🇹🇷 Türkçe
-
-### Açıklama
-
-Bu proje, **100 yolcu – 100 koltuk** problemine ait bir simülasyon içerir.  
-Kural özetleri:
-
-- **1. yolcu** biletini kaybetmiştir ve rastgele bir koltuğa oturur.
-- Sonraki yolcular sırayla uçağa biner:
-  - Kendi koltuğu boşsa oraya oturur.
-  - Kendi koltuğu doluysa, kalan boş koltuklardan rastgele birini seçer.
-- Simülasyon sonunda **son yolcunun (n’inci)** kendi koltuğuna oturup oturmadığı kontrol edilir.
-
-Bilinen teorik sonuç: Son yolcunun kendi koltuğuna oturma olasılığı **yaklaşık %50**’dir.
-
----
-
-### Kurulum Rehberi
-
-1. **Node.js** kurulu olmalı (v16+ önerilir).  
-   [Node.js indirme sayfası](https://nodejs.org/)
-2. Bu projeyi klonla veya indir:
-   ```bash
-   git clone https://github.com/kullaniciadi/airplane-problem.git
-   cd airplane-problem/src
-   ```
-3. `app.js` dosyasını çalıştır:
-   ```bash
-   node app.js
-   ```
-
----
-
-### Kullanım
-
-Fonksiyon:
-
-```js
-planeProblem(passengers, trials);
-```
-
-- `passengers`: Yolcu sayısı (varsayılan 100)
-- `trials`: Simülasyon tekrar sayısı (ör. 10_000)
-
-Örnek:
-
-```js
-planeProblem(100, 10000);
-```
-
----
-
-### Örnek Çıktı
-
-```
-success 4978
-success rate 49.78
-```
+_(100 Yolcu Uçak Problemi Simülasyonu)_
 
 ---
 
@@ -126,6 +65,68 @@ success rate 49.78
 
 ---
 
+## 🇹🇷 Türkçe
+
+### Açıklama
+
+Bu proje, **100 yolcu – 100 koltuk** problemine ait bir simülasyon içerir.  
+Kural özetleri:
+
+- **1. yolcu** biletini kaybetmiştir ve rastgele bir koltuğa oturur.
+- Sonraki yolcular sırayla uçağa biner:
+  - Kendi koltuğu boşsa oraya oturur.
+  - Kendi koltuğu doluysa, kalan boş koltuklardan rastgele birini seçer.
+- Simülasyon sonunda **son yolcunun (n’inci)** kendi koltuğuna oturup oturmadığı kontrol edilir.
+
+Bilinen teorik sonuç: Son yolcunun kendi koltuğuna oturma olasılığı **yaklaşık %50**’dir.
+
+---
+
+### Kurulum Rehberi
+
+1. **Node.js** kurulu olmalı (v16+ önerilir).  
+   [Node.js indirme sayfası](https://nodejs.org/)
+2. Bu projeyi klonla veya indir:
+   ```bash
+   git clone https://github.com/kullaniciadi/airplane-problem.git
+   cd airplane-problem/src
+   ```
+3. `app.js` dosyasını çalıştır:
+   ```bash
+   node app.js
+   ```
+
+---
+
+### Kullanım
+
+Fonksiyon:
+
+```js
+planeProblem(passengers, trials);
+```
+
+- `passengers`: Yolcu sayısı (varsayılan 100)
+- `trials`: Simülasyon tekrar sayısı (ör. 10_000)
+
+Örnek:
+
+```js
+planeProblem(100, 10000);
+```
+
+---
+
+### Örnek Çıktı
+
+```
+success 4978
+success rate 49.78
+```
+
+---
+
 ## 📜 License
 
-This project was created to experiment with the algorithm.
+This project was created to experiment with the algorithm.  
+Feel free to use and modify.

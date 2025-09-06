@@ -3,7 +3,7 @@ function planeProblem(passengers, range) {
    * There are 100 passengers.
    * The first passenger sits in a random seat.
    * The second passenger: if their own seat is empty, they sit there;
-   *   otherwise, they choose a random empty seat.
+   * otherwise, they choose a random empty seat.
    * The same rule applies for all the other passengers as well.
    */
 
